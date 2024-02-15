@@ -4,7 +4,7 @@
     - name: Copy WAR file to Tomcat webapps directory
       copy:
         src: /home/ubuntu/java-app/target/hello-world-1.war
-        dest: /home/ubuntu/apache-tomcat-9.0.85/webapps/hello-world-1.war
+        dest: /home/ubuntu/apache-tomcat-9.0.85/webapps/
         remote_src: yes
       become: yes
 
