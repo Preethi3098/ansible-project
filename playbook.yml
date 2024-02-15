@@ -1,4 +1,5 @@
 ---
+. name: Example Playbook
 - hosts: tomcat
   tasks:
     - name: Copy WAR file to Tomcat webapps directory
